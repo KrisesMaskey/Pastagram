@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2FDF9C4B9F20E44B6227F03D /* Pods_pastagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C4ECA48CDA745A77E8386D /* Pods_pastagramTests.framework */; };
+		6E01856127282B510085B86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E01855F27282B510085B86F /* Main.storyboard */; };
+		6E01856327282B720085B86F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01856227282B720085B86F /* CommentCell.swift */; };
 		6E70D5BB271EF65E00D42A15 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D5BA271EF65E00D42A15 /* CameraViewController.swift */; };
 		6E70D5BD271EF88A00D42A15 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D5BC271EF88A00D42A15 /* FeedTableViewCell.swift */; };
 		6E9729D9271ECB8800192A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9729D8271ECB8800192A23 /* AppDelegate.swift */; };
@@ -17,7 +19,6 @@
 		6E9729E5271ECB8900192A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9729E3271ECB8900192A23 /* LaunchScreen.storyboard */; };
 		6E9729F0271ECB8900192A23 /* pastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9729EF271ECB8900192A23 /* pastagramTests.swift */; };
 		6E9729FB271ECB8900192A23 /* pastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9729FA271ECB8900192A23 /* pastagramUITests.swift */; };
-		6E972A09271ECC7C00192A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E972A08271ECC7C00192A23 /* Main.storyboard */; };
 		6E972A0B271ECCBC00192A23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E972A0A271ECCBC00192A23 /* LoginViewController.swift */; };
 		6E972A0D271ECCC600192A23 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E972A0C271ECCC600192A23 /* FeedViewController.swift */; };
 		C6A4AF3BB8841C7B191CD47B /* Pods_pastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237D7A8237DE855B0D821C55 /* Pods_pastagram.framework */; };
@@ -46,6 +47,8 @@
 		237D7A8237DE855B0D821C55 /* Pods_pastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B21E6C84A884196B3CE8028 /* Pods-pastagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastagramTests.debug.xcconfig"; path = "Target Support Files/Pods-pastagramTests/Pods-pastagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59C4ECA48CDA745A77E8386D /* Pods_pastagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pastagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E01856027282B510085B86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/unit6-pastagram/pastagram/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		6E01856227282B720085B86F /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		6E70D5BA271EF65E00D42A15 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		6E70D5BC271EF88A00D42A15 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		6E9729D5271ECB8800192A23 /* pastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +64,6 @@
 		6E9729F6271ECB8900192A23 /* pastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9729FA271ECB8900192A23 /* pastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastagramUITests.swift; sourceTree = "<group>"; };
 		6E9729FC271ECB8900192A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E972A08271ECC7C00192A23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6E972A0A271ECCBC00192A23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6E972A0C271ECCC600192A23 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		709A5C5C2A690BB80422D834 /* Pods-pastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastagram.release.xcconfig"; path = "Target Support Files/Pods-pastagram/Pods-pastagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +132,8 @@
 				6E972A0A271ECCBC00192A23 /* LoginViewController.swift */,
 				6E972A0C271ECCC600192A23 /* FeedViewController.swift */,
 				6E70D5BC271EF88A00D42A15 /* FeedTableViewCell.swift */,
-				6E972A08271ECC7C00192A23 /* Main.storyboard */,
+				6E01856227282B720085B86F /* CommentCell.swift */,
+				6E01855F27282B510085B86F /* Main.storyboard */,
 				6E9729E1271ECB8900192A23 /* Assets.xcassets */,
 				6E9729E3271ECB8900192A23 /* LaunchScreen.storyboard */,
 				6E9729E6271ECB8900192A23 /* Info.plist */,
@@ -291,7 +294,7 @@
 			files = (
 				6E9729E5271ECB8900192A23 /* LaunchScreen.storyboard in Resources */,
 				6E9729E2271ECB8900192A23 /* Assets.xcassets in Resources */,
-				6E972A09271ECC7C00192A23 /* Main.storyboard in Resources */,
+				6E01856127282B510085B86F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +429,7 @@
 				6E9729D9271ECB8800192A23 /* AppDelegate.swift in Sources */,
 				6E9729DB271ECB8800192A23 /* SceneDelegate.swift in Sources */,
 				6E70D5BB271EF65E00D42A15 /* CameraViewController.swift in Sources */,
+				6E01856327282B720085B86F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +465,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6E01855F27282B510085B86F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E01856027282B510085B86F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6E9729E3271ECB8900192A23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
